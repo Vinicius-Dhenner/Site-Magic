@@ -16,6 +16,10 @@ body>header{    /* Filho direto */
     padding-left: 18%;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
 .menu{
     display: flex;
     align-items: center;
@@ -113,14 +117,37 @@ body>header{    /* Filho direto */
     display: flex;
     flex-direction: row;
     padding: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 .icones {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 25px;
 }
 
 .encontre, .empresa, .marcas {
     display: flex;
     flex-direction: column;
+    margin: 10px;
+}
+
+.encontre p, .empresa p, .marcas p{
+    font-size: 0.8em;
+}
+
+.encontre h5, .empresa h5, .marcas h5 {
+    margin-bottom: 1%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a{
+    margin: 5px;
 }
