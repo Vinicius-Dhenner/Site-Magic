@@ -95,6 +95,32 @@ body>header{    /* Filho direto */
 .rodape {
     background: #0C0F11;
     width: 100%;
-    height: 400px;
+    padding: 25px;
+    color:white;
 }
 
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.rodape-contatos {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+}
+
+.encontre, .empresa, .marcas {
+    display: flex;
+    flex-direction: column;
+}
