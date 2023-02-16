@@ -32,6 +32,10 @@ body>header{    /* Filho direto */
     text-transform: uppercase;
 }
 
+.menu a:hover{
+    text-decoration: underline;
+}
+
 .banner img{
     width: 100%;
 }
@@ -47,4 +51,43 @@ body>header{    /* Filho direto */
     align-items: center;
     gap: 20px;
     width: 100%;
+}
+
+.nossosJogos { 
+    text-align: center;
+}
+
+.nossosJogos h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.jogos {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.jogos img {
+    margin-bottom: 6%;
+}
+
+.jogos h2 {
+    margin: 6%;
+}
+
+.jogos p {
+    margin: 6%;
+}
+
+.jogos a {
+    text-decoration: none;
+    color: #ea4b12;
+}
+
+.jogos a:hover {
+    text-decoration: underline;
 }
