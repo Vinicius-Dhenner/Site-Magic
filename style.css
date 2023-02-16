@@ -99,7 +99,6 @@ body>header{    /* Filho direto */
 .rodape {
     background: #0C0F11;
     width: 100%;
-    padding: 25px;
     color:white;
 }
 
@@ -128,6 +127,16 @@ body>header{    /* Filho direto */
     margin: 25px;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a{
+    margin: 8px;
+}
+
 .encontre, .empresa, .marcas {
     display: flex;
     flex-direction: column;
@@ -142,12 +151,30 @@ body>header{    /* Filho direto */
     margin-bottom: 1%;
 }
 
-.icons {
+
+.rodape-certificados {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-bottom: 25px;
+}
+
+.rodape-certificados img {
+    margin-left: 50px;
+}
+
+.rodape-termos {
+    width: 100%;
+    background-color: #242424;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    font-size: 0.8em;
 }
 
-.icons a{
-    margin: 5px;
+.rodape-termos a {
+    margin-left: 5%;
 }
